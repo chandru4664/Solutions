@@ -9,13 +9,13 @@ public class ArrayEmployees {
 
 	public static void main(String[] args) {
 
-		int basicSalary[]  = new int[] {30000,35000,36000,45000,50000};                   //Define an array and assign values for basic salary
+		int basicSalary[]  = new int[] {30000,35000,36000,45000,50000};           //Define an array and assign values for basic salary
         int allowanceDA[]  = new int[] {1000,1500,2000,2500,3000};                        //Define an array and assign values for DA allowance
         int allowanceHRA[] = new int[] {5000,6000,7000,8000,9000};                        //Define an array and assign values for HRA allowance
         int totalBasic = 0, totalDA = 0, totalHRA = 0, n=5;                               //Initialize variables
         
         for (int i=0;i<n;i++) {
-        	totalBasic = totalBasic + basicSalary[i];                                      //Iterate through loop and calculate total amounts
+        	totalBasic = totalBasic + basicSalary[i];                                 //Iterate through loop and calculate total amounts
         	totalDA    = totalDA + allowanceDA[i];
         	totalHRA   = totalHRA + allowanceHRA[i];
         	}
@@ -31,4 +31,19 @@ public class ArrayEmployees {
         }
 	}
 
+Solution:
+---------          
+	Basic Salary  ==> Total  : 196000
+	Basic Salary  ==> Average: 39200
+	DA Allowance  ==> Total  : 10000
+	DA Allowance  ==> Average: 2000
+	HRA Allowance ==> Total  : 35000
+	HRA Allowance ==> Average: 7000
+	Total salary of all employees: 241000                      
+
+
+
+
+
+	
 
