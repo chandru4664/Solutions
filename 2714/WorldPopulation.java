@@ -7,7 +7,7 @@ package com.corejava.exercise;
  * Output: Population from 2001 to 2010 (in years)
  */
 
-import java.util.Scanner;                                                                  //import scanner to get value from input stream
+import java.util.Scanner;                                                                              //import scanner to get value from input stream
 
 public class WorldPopulation {
 
@@ -31,7 +31,7 @@ public class WorldPopulation {
 
 				year = year+1;
 				currentPop = (long) (currentPop + (currentPop * (growthRate/100)));
-				System.out.println("Population in year "+year+" is: " +currentPop);		    //Display population based on growth rate
+				System.out.println("Population in year "+year+" is: " +currentPop);     //Display population based on growth rate
 				
 			}
 			input.close();                                                                  //close scanner
@@ -39,3 +39,18 @@ public class WorldPopulation {
 	}
 
 }
+Solution
+Enter the Current population in year2000: 6000000000
+	Enter the Growth Rate%: 1
+Current Population in year 2000 is: 6000000000
+	Population in year 2001 is: 6060000000
+	Population in year 2002 is: 6120600000
+	Population in year 2003 is: 6181806000
+	Population in year 2004 is: 6243624060
+	Population in year 2005 is: 6306060300
+	Population in year 2006 is: 6369120903
+	Population in year 2007 is: 6432812112
+	Population in year 2008 is: 6497140233
+	Population in year 2009 is: 6562111635
+	Population in year 2010 is: 6627732751
+
