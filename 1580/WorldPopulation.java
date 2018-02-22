@@ -22,3 +22,18 @@ public class WorldPopulation {
 	}
 
 }
+
+
+Answer is as below.
+Population for 2001 is 6060000000
+Population for 2002 is 6120600000
+Population for 2003 is 6181806000
+Population for 2004 is 6243624060
+Population for 2005 is 6306060300
+Population for 2006 is 6369120903
+Population for 2007 is 6432812112
+Population for 2008 is 6497140233
+Population for 2009 is 6562111635
+Population for 2010 is 6627732751
+	
+	
