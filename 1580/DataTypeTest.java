@@ -32,3 +32,16 @@ public class DataTypeTest {
       System.out.println("GPA is " + gpa);
    }
 }
+
+
+Answer is as below
+
+Name is Narayana Tangudu
+Gender is m
+Is married is true
+Number of children is 2
+Year of birth is 1972
+Salary is 100000
+Net Asset is 8234567890
+Weight is 88.88
+GPA is 3.88
