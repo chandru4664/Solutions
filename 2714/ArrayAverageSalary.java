@@ -24,6 +24,13 @@ public class ArrayAverageSalary {
 
 }
 
-
+Solution:
+---------
+Salary of employee 1: 30000 
+Salary of employee 2: 35000 
+Salary of employee 3: 36000 
+Salary of employee 4: 45000 
+Salary of employee 5: 50000
+Average salary of 5 employees are: 39200.0
 	
 	
