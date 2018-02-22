@@ -1,0 +1,2 @@
+# Solutions
+Use this repository to upload your solutions to the given exercises.
