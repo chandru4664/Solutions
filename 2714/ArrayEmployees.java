@@ -9,7 +9,7 @@ public class ArrayEmployees {
 
 	public static void main(String[] args) {
 
-		int basicSalary[]  = new int[] {30000,35000,36000,45000,50000};           //Define an array and assign values for basic salary
+	int basicSalary[]  = new int[] {30000,35000,36000,45000,50000};                   //Define an array and assign values for basic salary
         int allowanceDA[]  = new int[] {1000,1500,2000,2500,3000};                        //Define an array and assign values for DA allowance
         int allowanceHRA[] = new int[] {5000,6000,7000,8000,9000};                        //Define an array and assign values for HRA allowance
         int totalBasic = 0, totalDA = 0, totalHRA = 0, n=5;                               //Initialize variables
