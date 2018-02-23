@@ -1,5 +1,0 @@
-11). Which characters may be used as the second character of
-an identifier,but not as the first character of an identifier?
-
-Answer: The digits 0 through 9 may not be used as the first character of an identifier 
-but they maybe used after the first character of an identifier.
