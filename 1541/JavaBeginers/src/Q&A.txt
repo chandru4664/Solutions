@@ -16,4 +16,6 @@
     i == 0 -- boolean --> conditional check
     "aString" + i --> String 
     
- 18) a) false
+ 18) false 
+ 
+ 19) i = 1 is assingment and if is conditional operator
