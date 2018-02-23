@@ -1,0 +1,19 @@
+11)  Which characters may be used as the second character of     an identifier,but not as the first character of an     identifier?
+    - Identifier should always state with alphabets and numbers can be anywhere after that. 
+    
+12 a ) 10 * 20 will become int
+   b) Cannot increment final variable
+
+
+16) a) Remainder is zero as i++ will execute after statement ends
+    b) Remainder is 1 as ++i will execute before statement ends
+ 
+17) if i is int 
+    i > 0 --> boolean -- conditional check
+    i = 0 --> int -- assignment
+    i++ --> int -- increment
+    float(i) -- float -- casting 
+    i == 0 -- boolean --> conditional check
+    "aString" + i --> String 
+    
+ 18) a) false
