@@ -1,0 +1,53 @@
+17). What are the data types of the following expressions, assuming that i's type is int?
+i > 0                  ==> Relational (Greater than) operator
+i = 0                  ==> Assignment statement
+i++                    ==> post-Incremental opertion
+(float)i               ==> widening conversion type    
+i == 0                 ==> Relational (Equality) operator
+"aString" + i          ==> Converting to a String i.e., String + integer = String
+
+
+
+18). Consider the following expression:
+i--%5>0
+What is the result of the expression, assuming that the value of i is initially 10? false
+
+Solution: 
+int i = 10;
+if (i--%5>0){ 
+    System.out.println("Inside Loop");
+    }
+else {
+     System.out.println("Outside Loop");
+    } 
+Output:
+outside Loop
+
+Modify the expression so that it has the same result but is easier for programmers to read.
+
+Solution: i-- is equivalent to i value in this code snippet.
+int i = 10;
+if (i%5>0){ 
+    System.out.println("Inside Loop");
+    }
+else {
+     System.out.println("Outside Loop");
+    } 
+Output:
+outside Loop
+
+
+19). What's wrong with the following code snippet:
+if (i = 1) {
+/* do something */
+}
+
+Issue: The equality operator in this code is incorrect. The correct relational operator is ==
+Solution: if (i==1)
+Note: Java provides six relational operators such as follows:
+a == b
+a != b
+a > b
+a < b
+a >= b
+a <= b
