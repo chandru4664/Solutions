@@ -1,0 +1,1 @@
+The digits 0 through 9 may not be used as the first character of an identifier but they maybe used after the first character of an identifier.
