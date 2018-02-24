@@ -1,0 +1,36 @@
+public class StringTest {
+
+	public static void main(String[] args) {
+		String s1 = new String("Java");
+		String s2 = new String("Java");
+		if( s1 == s2 ) {
+		System.out.println("They Are Equal");
+		}
+		else {
+		System.out.println("They are Unequal");
+		}
+	}
+
+}
+
+answer for above snippet is "they are unequal" and reason is there are both being created with new operator and they are different objects now so the s1 and s2 references are not same.
+
+
+public class StringTest {
+
+	public static void main(String[] args) {
+		String s1 = "Java";
+		String s2 = "Java";
+		if( s1 == s2 ) {
+		System.out.println("They Are Equal");
+		}
+		else {
+		System.out.println("They are Unequal");
+		}
+	}
+
+}
+
+answer for above snippet is "They are equal" and reason is both the strings are not created with new operator so when string s2 is created memory will not be allocated  newly instead it will reference the existing value in StringPool.
+
+

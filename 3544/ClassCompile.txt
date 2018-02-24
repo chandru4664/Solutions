@@ -1,0 +1,17 @@
+public class StaticInitializeOrder {
+	public static final String place;
+	static
+	{
+	place = "Tambaram";
+	System.out.println(place);
+	System.out.println(pincode);
+	}
+	public static final int pincode = 600045;
+	public static void main(String[] args) {
+		StaticInitializeOrder sio =
+				new StaticInitializeOrder();
+	}
+
+}
+
+class will not compile and cannot reference the variable will be seen for pincode in sysout
