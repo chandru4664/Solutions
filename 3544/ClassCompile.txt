@@ -15,3 +15,5 @@ public class StaticInitializeOrder {
 }
 
 class will not compile and cannot reference the variable will be seen for pincode in sysout
+
+// Good- 
