@@ -4,8 +4,28 @@ public class Bank {
 
 	private BankAccount[] accounts = new BankAccount[100];
 	
+	private static int lastAssignedAccountNumber = 0;
+	
 	public Bank() {
 		initializeAccount();
+	}
+	
+	private void incrementAccountNumber() {
+		lastAssignedAccountNumber = lastAssignedAccountNumber + 1 ;
+	}
+	
+	public BankAccount createNewAccount(String accountName) {
+		BankAccount newAccount = new BankAccount();
+		incrementAccountNumber();
+		newAccount.setAccountNum(String.valueOf(lastAssignedAccountNumber));
+		newAccount.setAccountName(accountName);
+		return newAccount;
+	}
+	
+	public BankAccount createNewAccount(String accountName, long accountBalance) {
+		BankAccount newAccount = createNewAccount(accountName);
+		newAccount.setAccountBalance(accountBalance);
+		return newAccount;
 	}
 	
 	public boolean isValidAccount(String accountNumber) {
@@ -54,6 +74,14 @@ public class Bank {
 		return false;
 	}
 	
+	public boolean deposit(Cheque cheque) throws AccountNotFoundException{
+		return deposit(cheque.getAccountNumber() , cheque.getAmount());
+	}
+	
+	public boolean withdraw(Cheque cheque) throws AccountNotFoundException{
+		return withdraw(cheque.getAccountNumber(), cheque.getAmount());
+	}
+	
 	public boolean withdraw(String accountNumber, long depositAmount) throws AccountNotFoundException{
 		if(isValidAccount(accountNumber)) {
 			for(BankAccount account : accounts) {
@@ -91,9 +119,11 @@ public class Bank {
 	private void initializeAccount() {
 		for(int i=1; i <= 5; i++) {
 			BankAccount account = new BankAccount();
-			account.setAccountNum(String.valueOf(i));
+			lastAssignedAccountNumber = lastAssignedAccountNumber + 1;
+			account.setAccountNum(String.valueOf(lastAssignedAccountNumber));
 			account.setAccountName("Account num : " + account.getAccountBalance()  * i);
-			accounts[i-1] = account;
+			//array index starts with zero
+			accounts[lastAssignedAccountNumber-1] = account;
 		}
 	}
  }
