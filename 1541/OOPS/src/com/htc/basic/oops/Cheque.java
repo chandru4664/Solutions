@@ -38,5 +38,4 @@ public class Cheque {
 	public void setAccountNumber(String accountNumber) {
 		this.accountNumber = accountNumber;
 	}
-	
 }
