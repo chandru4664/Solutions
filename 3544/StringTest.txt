@@ -34,3 +34,5 @@ public class StringTest {
 answer for above snippet is "They are equal" and reason is both the strings are not created with new operator so when string s2 is created memory will not be allocated  newly instead it will reference the existing value in StringPool.
 
 
+// Good work..  
+//Anish
