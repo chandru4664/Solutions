@@ -4,9 +4,6 @@ public class EmployeeSalary {
 
 	public static void main(String[] args) {
 
-		int avgBasicSalary=0;
-		int avgDa=0;
-		int avgHra=0;
 		int totalBasicSalary=0;
 		int totalDa=0;
 		int totalHra=0;
