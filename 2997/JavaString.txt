@@ -1,0 +1,91 @@
+package com.htc.core.java.string;
+
+public class StringSnippets {
+
+	public static void main(String[] args) {
+		String s1 = new String("Java");
+		String s2 = new String("Java");
+		if( s1 == s2 ) {
+			System.out.println("They Are Equal");
+		}
+		else {
+			System.out.println("They are Unequal ");
+		}
+	}
+
+}
+
+
+--> They are unequal as there it will compare the reference values of the string JAVA
+
+
+package com.htc.core.java.string;
+
+public class StringSnippets {
+
+	public static void main(String[] args) {
+		String s1 = "Java";
+		String s2 = "Java";
+		if( s1 == s2 ) {
+			System.out.println("They Are Equal");
+		}
+		else {
+			System.out.println("They are Unequal ");
+		}
+	}
+
+}
+
+
+--> They are equal as there it will compare the exact values of the string JAVA
+
+package com.htc.core.java.string;
+
+public class StringSnippets {
+
+	public static void main(String[] args) {
+		String s1 = "Java";
+		String s2 = "Java";
+		if(  s1.equals(s2) ) {
+			System.out.println("They Are Equal");
+		}
+		else {
+			System.out.println("They are Unequal ");
+		}
+	}
+
+}
+
+-->They are equal as there it will compare the exact values of the string JAVA. as equals is a string fn.
+
+package com.htc.core.java.string;
+
+public class StringSnippets {
+
+	public static void main(String[] args) {
+		int a = 10;
+		int b = 100;
+		System.out.println(" The added value is " + a + b); // bring output 10100 (+ will concatenating)
+		System.out.println(a+b+" is the added value "); // output will be 110
+		System.out.println(a-b+" is the Subtracted value is "); // output will be -90
+		System.out.println("The Subtracted value is "+a-b); // error as -b is not defined for string or int
+		System.out.println("The Multiplied value is "+a*b); // output is 1000
+		System.out.println("The Divided value is " + a/b);  // output is 0, actual value should be 0.1 its not displyed as its int
+
+	}
+}
+
+package com.htc.core.java.string;
+
+public class StringSnippets {
+
+	public static void main(String[] args) {
+		int a=100;
+		int b = 200;
+		 System.out.println(a + b);
+
+	}
+}
+
+
+// Output is 300

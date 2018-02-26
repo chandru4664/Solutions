@@ -1,4 +1,4 @@
-package com.htc.core.java.day1;
+package com.htc.core.java.string;
 
 public class Java16CodeSnippet {
 
