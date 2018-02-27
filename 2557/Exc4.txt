@@ -1,0 +1,24 @@
+/* Used double value to store and get value and had to google it*/
+package htc.sol.beginers.excercise;
+
+public class Exc4 {
+
+	public static void main(String[] args) {
+	Double pop2000 = new Double("1000000000.00");
+	double currentPop = pop2000.doubleValue();
+	double increment = 0.01;
+	double start = 6;
+	int year=2000;
+	do {
+		start = start * increment;
+		year = year + 1;
+	
+	}while(year<2010);
+	
+	if (year == 2010) {
+		currentPop = pop2000 * start;
+		System.out.println("Value of pop2000 =" +currentPop);
+		System.out.println("Value of year: " +year);
+	}
+	}
+}

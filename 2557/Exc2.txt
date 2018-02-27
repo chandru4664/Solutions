@@ -1,0 +1,53 @@
+package htc.sol.beginers.excercise;
+
+public class Exc2 {
+	private int num;
+	private char character;
+	private float smalldec;
+	private long longnum;
+	private String value;
+	private double bigdec;
+	
+	
+	public Exc2() {
+	/*	return ("successful initialization");*/
+/*		super();*/
+		// TODO Auto-generated constructor stub
+	}
+	public int getNum() {
+		return num;
+	}
+	public void setNum(int num) {
+		this.num = num;
+	}
+	public char getCharacter() {
+		return character;
+	}
+	public void setCharacter(char character) {
+		this.character = character;
+	}
+	public float getSmalldec() {
+		return smalldec;
+	}
+	public void setSmalldec(float smalldec) {
+		this.smalldec = smalldec;
+	}
+	public long getLongnum() {
+		return longnum;
+	}
+	public void setLongnum(long longnum) {
+		this.longnum = longnum;
+	}
+	public String getValue() {
+		return value;
+	}
+	public void setValue(String value) {
+		this.value = value;
+	}
+	public double getBigdec() {
+		return bigdec;
+	}
+	public void setBigdec(double bigdec) {
+		this.bigdec = bigdec;
+	}
+}

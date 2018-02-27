@@ -1,0 +1,22 @@
+package htc.sol.beginers.excercise;
+
+public class Exc6 {
+	public static void main(String[] args) {
+			double averageSal = 0.0;
+			
+			double salary[] = new double[5];
+			salary[0] = 1000.00;
+			salary[1] = 2000.00;
+			salary[2] = 3500.00;
+			salary[3] = 48000.00;
+			salary[4] = 54000.00;
+			
+			
+		for (int i=0; i<5;i++) {
+				averageSal = averageSal + salary[i];
+		}
+		averageSal = averageSal/5;	
+		System.out.println("Average Salary" +averageSal);
+		
+		}
+}
