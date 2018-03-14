@@ -7,14 +7,14 @@ import java.io.InputStreamReader;
 
 public class CustomerDriver {
 
-    public static void main(String[] args) throws IOException {
-        FileInputStream inputFile = new FileInputStream("customers.txt");
+    public static void main(String[] args) throws IOException {   // 
+        FileInputStream inputFile = new FileInputStream("customers.txt");    /// pUT THIS LINES ALSO IN TRY-CATCH-FINALLY.
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputFile));
         CustomerList customerList = new CustomerList();
-        String line;
+        String line;       //####### INITIALIZE THE CODE
         try {
 	        while ((line = bufferedReader.readLine()) != null) {
-	            String[] customerData = line.split(",");
+	            String[] customerData = line.split(",");       // you may validate the split fields.... before using it.
 	            Customer customer = new Customer();
 	            customer.setCustomerId(Integer.parseInt(customerData[0]));
 	            customer.setCustName(customerData[1]);
@@ -34,3 +34,6 @@ public class CustomerDriver {
        
     }
 }
+
+// if main method has a  throws clause,  not need to handle exceptions in main method.
+// dont make it as a practice....
