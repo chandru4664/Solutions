@@ -3,7 +3,7 @@ package com.htc.corejava.policy;
 import java.util.Date;
 
 public class PolicyInfo {
-    int policyNumber;
+    int policyNumber;               // keeps fields in the private sections. Its a practice in Java development
     String policyHolderName;
     Date issueDate;
     Date expireDate;
