@@ -10,7 +10,7 @@ public class PolicyManagement {
     HashMap<Integer, PolicyInfo> policies = new HashMap<Integer, PolicyInfo>();
 
     public boolean issuePolicy(PolicyInfo policy) {
-        if (!(this.policies.containsKey(policy.getPolicyNumber()))) {
+        if (!(this.policies.containsKey(policy.getPolicyNumber()))) {    //### correct
             this.policies.put(policy.getPolicyNumber(), policy);
             System.out.println("Policy issued");
             return true;
@@ -25,8 +25,8 @@ public class PolicyManagement {
         Date issueDate = calendar.getTime();
         calendar.add(Calendar.YEAR, 1); // to get previous year add -1
         Date expireDate = calendar.getTime();
-        if (this.policies.containsKey(policyNumber)) {
-            this.policies.get(policyNumber).setIssueDate(issueDate);
+        if (this.policies.containsKey(policyNumber)) {                          //## check this in the begining of the method
+            this.policies.get(policyNumber).setIssueDate(issueDate);            // otherwise correct
             this.policies.get(policyNumber).setExpireDate(expireDate);
             return true;
         } else {
@@ -37,7 +37,7 @@ public class PolicyManagement {
 
     public boolean cancelPolicy(Integer policyNumber) {
         if (this.policies.containsKey(policyNumber)) {
-            this.policies.remove(policyNumber);
+            this.policies.remove(policyNumber);             //  correct
             return true;
         } else {
             System.out.println("The policy number isn't valid");
@@ -56,7 +56,7 @@ public class PolicyManagement {
     
     public void printPoliciesNew() {
     	//new way
-    	for(Map.Entry<Integer, PolicyInfo> entry : policies.entrySet()) {
+    	for(Map.Entry<Integer, PolicyInfo> entry : policies.entrySet()) {     
     		System.out.println("Policy Nnumber " + entry.getKey() + " , Policy Information " + entry.getValue());
     	}
     }
