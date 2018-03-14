@@ -43,6 +43,3 @@ public class JavaTest9 {
 	}
 
 }
-
-//Good. thank you
-//Anish

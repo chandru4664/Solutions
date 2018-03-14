@@ -1,0 +1,12 @@
+package htc.sol.beginers.excercise;
+
+public class Exc5 {
+
+	public static void main(String[] args) {
+		for (int i = 65; i<91; i++)
+			{
+			System.out.println("Values:" +(char)i);		
+			}
+			}
+
+}

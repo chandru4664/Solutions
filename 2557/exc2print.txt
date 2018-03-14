@@ -1,0 +1,21 @@
+package htc.sol.beginers.excercise;
+
+public class exc2print {
+
+	public static void main(String[] args)
+	{
+		Exc2 e = new Exc2();
+		e.setSmalldec((float) 2400.25);
+		System.out.println("Float decimal = " + e.getSmalldec());
+	 	e.setValue("abcdefghijklmnopqrstuvwxyz");
+		System.out.println("String is "+ e.getValue());
+		e.setCharacter('a');
+		System.out.println("Character is " +e.getCharacter());
+		e.setLongnum(400000000);
+		System.out.println("Long number- " +e.getLongnum());
+		e.setNum(700);
+		System.out.println("num = " + e.getNum());
+		e.setBigdec(240000.25);
+		System.out.println("double decimal = " + e.getBigdec());
+	}
+}

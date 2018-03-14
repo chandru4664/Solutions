@@ -34,7 +34,7 @@ else {
      System.out.println("Outside Loop");
     } 
 Output:
-outside Loop
+Outside Loop
 
 
 19). What's wrong with the following code snippet:
