@@ -1,0 +1,34 @@
+/*
+  Select Policy/Vehicles details with more than two coverages.
+*/
+
+-- Loading policy data
+policydata = LOAD 'hdfs://quickstart.cloudera.8020/policydata/March2018/marchcata.csv' 
+             USING PigStorage(',') 
+             AS (policyno:int,
+                 PolicyHolderName:chararray,
+                 LineOfBusiness:chararray,
+                 premium:double,
+                 CoveragesIncluded:chararray,
+                 CoverageAmount:double,   
+                 state:chararray,
+                 remarks:chararray);
+
+policy_coverage = FOREACH policydata GENERATE policyno,FLATTEN(TOKENIZE(CoveragesIncluded,'\\|'));
+
+--Join ,above, two relations using INNER JOIN
+join_on_coverage = JOIN policydata BY policyno, policy_coverage BY policyno;
+
+
+--GROUP the JOINed relation on policy.
+grouped_policy_by_coverages = GROUP join_on_coverage BY policydata::policyno;
+
+-- Find policies with more than two coverages.
+policy_total_coverage =   FOREACH grouped_policy_by_coverages GENERATE group,
+                                  FLATTEN(join_on_coverage.policydata::policyNo),
+				     FLATTEN(policy_coverages_join.policydata::CoveragesIncluded),	
+                                    COUNT(join_on_coverage) AS CoveragesCount;
+
+policy_with_two_ormore_cov = FILTER policy_total_coverage BY CoveragesCount > 2;
+
+STORE policy_with_two_ormore_cov INTO 'hdfs://quickstart.cloudera.8020/policydata/March2018/MarchPolicies/' USING PigStorage (',');
