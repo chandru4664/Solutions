@@ -1,0 +1,75 @@
+Learn Scala Programming language from Scratch
+Learn everything you need to know about the popular Scala language with this comprehensive tutorial
+https://www.safaribooksonline.com/library/view/learn-scala-programming/9781787126299/
+
+Scala Programming Language
+You'll learn basic proficiency with using Scala. It's a great tool to add to your programming toolbox. 
+Learning Scala will demonstrate your ability to grasp a functional programming language. If you don't already know any 
+functional programming languages, Scala is certainly a popular one to know. We'll use the Eclipse Scala IDE though out 
+this course. Some of the topics covered will be language fundamentals, control flow, functions, classes, file I/O and 
+exception handling. The course is well placed for those that do not have any Java or functional programming background. 
+Each module ends with a project so you can challenge yourself with new material and solidify what you've learned.
+https://www.safaribooksonline.com/library/view/scala-programming-language/100000006A0452/
+
+Practical Scala for Java Developers
+You're a Java developer who has heard of Scala and maybe now you're being asked to work on Scala code. 
+Concerned? Don't be. Taught by Java-Scala experts Ben Evans and Julian Templeman, this courseanswers the 
+questions you want answered: What is Scala really useful for? Does it help with concurrency? What is functional 
+programming and how much do I really need to know? How do I set up a Scala development environment, how do I test, 
+and what are the must-know Scala idioms? If you're an intermediate level Java developer with six months of experience
+under your belt, then this course will quickly transform you from the Scala ignorant to the Scala capable.
+https://www.safaribooksonline.com/library/view/practical-scala-for/9781491969472/
+
+Taming Big Data with Spark Streaming and Scala – Hands On!
+https://www.safaribooksonline.com/library/view/taming-big-data/9781787123915/
+
+Apache Spark with Scala
+https://www.safaribooksonline.com/library/view/apache-spark-with/9781787129849/
+
+************
+KAFKA
+
+Introduction to Apache Kafka
+Currently one of the hottest projects across the Hadoop ecosystem, Apache Kafka is a distributed, real-time data system 
+that functions in a manner similar to a pub/sub messaging service, but with better throughput, built-in partitioning, 
+replication, and fault tolerance. In this video course, host Gwen Shapira from Cloudera shows developers and administrators 
+how to integrate Kafka into a data processing pipeline.
+
+You'll start with Kafka basics, walk through code examples of Kafka producers and consumers, and then learn how to integrate 
+Kafka with Hadoop. By the end of this course, you'll be ready to use this service for large-scale log collection and stream 
+processing.
+https://www.safaribooksonline.com/library/view/introduction-to-apache/9781491923306/
+
+ 
+
+Learning Path: Kafka
+
+Currently one of the hottest projects across the Hadoop ecosystem, Apache Kafka is a distributed, real-time data system 
+that functions in a manner similar to a pub/sub messaging service, but with better throughput, built-in partitioning, 
+replication, and fault tolerance. In this video course, host Gwen Shapira shows developers and administrators the basics 
+for setting up a Kafka cluster and writing producers and consumers in Kafka.
+https://www.safaribooksonline.com/library/view/learning-path-kafka/9781491988961/
+
+ 
+
+The Ultimate Hands-on Hadoop
+•Design distributed systems that manage "big data" using Hadoop and related technologies.
+•Use HDFS and MapReduce for storing and analyzing data at scale.
+•Use Pig and Spark to create scripts to process data on a Hadoop cluster in more complex ways.
+•Analyze relational data using Hive and MySQL
+•Analyze non-relational data using HBase, Cassandra, and MongoDB
+•Query data interactively with Drill, Phoenix, and Presto
+•Choose an appropriate data storage technology for your application
+•Understand how Hadoop clusters are managed by YARN, Tez, Mesos, Zookeeper, Zeppelin, Hue, and Oozie.
+•Publish data to your Hadoop cluster using Kafka, Sqoop, and Flume
+•Consume streaming data using Spark Streaming, Flink, and Storm
+https://www.safaribooksonline.com/library/view/the-ultimate-hands-on/9781788478489/
+ 
+Kafka
+
+Apache Kafka Tutorial
+
+https://www.lynda.com/Kafka-tutorials/Kafka-Essential-Training/585254-2.html
+https://www.safaribooksonline.com/library/view/introduction-to-apache/9781491923306/
+https://www.safaribooksonline.com/library/view/i-logs/9781491908310/
+https://www.safaribooksonline.com/library/view/learning-path-kafka/9781491988961/
