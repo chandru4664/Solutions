@@ -1,3 +1,11 @@
+https://collab.sfcollab.org/sites/WSS004805/SitePages/1-Day%20Hadoop%20Training.aspx 
+https://www.lynda.com/Scala-tutorials/Scala-Essential-Training/574693-2.html 
+
+https://www.lynda.com/Scala-tutorials/Scala-First-Look/520533-2.html?srchtrk=index%3a4%0alinktypeid%3a2%0aq%3ascala%0apage%3a1%0as%3arelevance%0asa%3atrue%0aproducttypeid%3a2 
+
+https://www.lynda.com/Scala-tutorials/Learning-Scala-Web-Development/521233-2.html?srchtrk=index%3a14%0alinktypeid%3a2%0aq%3ascala%0apage%3a1%0as%3arelevance%0asa%3atrue%0aproducttypeid%3a2 
+==================================================
+
 Learn Scala Programming language from Scratch
 Learn everything you need to know about the popular Scala language with this comprehensive tutorial
 https://www.safaribooksonline.com/library/view/learn-scala-programming/9781787126299/
