@@ -81,3 +81,9 @@ https://www.lynda.com/Kafka-tutorials/Kafka-Essential-Training/585254-2.html
 https://www.safaribooksonline.com/library/view/introduction-to-apache/9781491923306/
 https://www.safaribooksonline.com/library/view/i-logs/9781491908310/
 https://www.safaribooksonline.com/library/view/learning-path-kafka/9781491988961/
+
+Collection example.
+google search: scala example of seq , map and set
+http://www.alessandrolacava.com/blog/scala-seq-map-and-set-as-functions/
+google search: what is partialfunction in scala
+https://alvinalexander.com/scala/how-to-define-use-partial-functions-in-scala-syntax-examples
